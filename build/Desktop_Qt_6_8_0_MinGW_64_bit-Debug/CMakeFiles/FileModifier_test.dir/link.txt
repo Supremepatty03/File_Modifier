@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\FileModifier_test.dir/objects.a
+D:\qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\FileModifier_test.dir/objects.a @CMakeFiles\FileModifier_test.dir\objects1.rsp
+D:\qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\FileModifier_test.dir/objects.a -Wl,--no-whole-archive -o FileModifier_test.exe -Wl,--out-implib,libFileModifier_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FileModifier_test.dir\linkLibs.rsp
